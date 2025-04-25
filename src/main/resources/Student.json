@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Max Mustermann",
+    "password": "securepassword123",
+    "yearOfBirth": 2000
+  },
+  {
+    "name": "Erika Musterfrau",
+    "password": "anotherpassword456",
+    "yearOfBirth": 1999
+  },
+  {
+    "name": "John Doe",
+    "password": "mysecretpassword789",
+    "yearOfBirth": 1998
+  },
+  {
+    "name": "Lisa Schmidt",
+    "password": "passwordLisa321",
+    "yearOfBirth": 2001
+  },
+  {
+    "name": "Michael Müller",
+    "password": "michaelssecurepass987",
+    "yearOfBirth": 2000
+  }
+]

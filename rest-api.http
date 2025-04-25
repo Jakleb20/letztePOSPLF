@@ -1,0 +1,30 @@
+ ### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=IntelliJ IDEA
+
+
+### Post Requebst
+POST http://localhost:8080/api/v1/public/signin
+Content-Type: application/json
+
+{
+  "username": "Max Mustermann",
+  "password": "securepassword123"
+}
+
+
+### Zuerst mit User einloggen und dann mit dem Token den Request machen
+### GET Request
+GET http://localhost:8080/api/v1/user/getNumberOfPosts
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3d3dy5odGwta2FpbmRvcmYuYWMuYXQiLCJzdWIiOiJNYXggTXVzdGVybWFubiIsImlhdCI6MTc0NTU2NDM0NywiZXhwIjoxNzQ1NTY2MTQ3fQ.IHhDwGAvuLoJkF_ZSnssE_3EvaZzIZZjOWOAx1LmkMI
+
+// Zuerst mit Admin einloggen und dann mit dem Token den Request machen
+### Zuerst mit User einloggen und dann mit dem Token den Request machen
+GET http://localhost:8080/api/v1/user/getAverageRatingOfAllPosts
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3d3dy5odGwta2FpbmRvcmYuYWMuYXQiLCJzdWIiOiJNYXggTXVzdGVybWFubiIsImlhdCI6MTc0NTU2NDM0NywiZXhwIjoxNzQ1NTY2MTQ3fQ.IHhDwGAvuLoJkF_ZSnssE_3EvaZzIZZjOWOAx1LmkMI
+
+
+// Zuerst mit Admin einloggen und dann mit dem Token den Request machen
+### GET Request
+GET http://localhost:8080/api/v1/user/getWhoWroteTheMostComments
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3d3dy5odGwta2FpbmRvcmYuYWMuYXQiLCJzdWIiOiJNYXggTXVzdGVybWFubiIsImlhdCI6MTc0NTU2NDUzOCwiZXhwIjoxNzQ1NTY2MzM4fQ.TVgDwnLL7LXIB7FwYhO4X6Z8IWN2fUuU2a9Ev3y_8_Y

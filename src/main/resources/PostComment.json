@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Mein erster Post",
+    "comment": [
+      {
+        "review": "Das ist ein sehr guter Beitrag!",
+        "rating": "5",
+        "student": {
+          "name": "Max Mustermann",
+          "password": "securepassword123",
+          "yearOfBirth": 2000
+        }
+      },
+      {
+        "review": "Interessanter Beitrag, aber könnte mehr Details enthalten.",
+        "rating": "4",
+        "student": {
+          "name": "Erika Musterfrau",
+          "password": "anotherpassword456",
+          "yearOfBirth": 1999
+        }
+      }
+    ]
+  },
+  {
+    "title": "Tech Trends 2025",
+    "comment": [
+      {
+        "review": "Sehr spannende Analyse der kommenden Trends in der Technikbranche.",
+        "rating": "5",
+        "student": {
+          "name": "John Doe",
+          "password": "mysecretpassword789",
+          "yearOfBirth": 1998
+        }
+      },
+      {
+        "review": "Die Zukunft von KI ist wirklich faszinierend, aber ich habe einige Bedenken bezüglich der ethischen Implikationen.",
+        "rating": "4",
+        "student": {
+          "name": "Lisa Schmidt",
+          "password": "passwordLisa321",
+          "yearOfBirth": 2001
+        }
+      }
+    ]
+  },
+  {
+    "title": "Umweltbewusstsein im Alltag",
+    "comment": [
+      {
+        "review": "Dieser Beitrag hat mir viele neue Perspektiven auf die Umweltproblematik gegeben.",
+        "rating": "5",
+        "student": {
+          "name": "Michael Müller",
+          "password": "michaelssecurepass987",
+          "yearOfBirth": 2000
+        }
+      }
+    ]
+  }
+]
